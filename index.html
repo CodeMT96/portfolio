@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/6bd6c784d7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>My Project</title>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div>
-        <div id="logo"></div>
+        <div class="logo"></div>
         <div id="headerName">Markus <br>Teumel</div>
       </div>
       <div>
@@ -18,7 +19,9 @@
         ><a href="">Contact</a><a href="">?</a>
       </div>
     </header>
+    <!-- Main -->
     <main>
+      <!-- Code Section  -->
       <section id="codeSection">
         <div id="codeWindow">
           <h3>Hello I´m Markus</h3>
@@ -30,6 +33,7 @@
           <p>Avid Videogame Fan</p>
         </div>
       </section>
+      <!-- BIO -->
       <section id="me">
         <h3>Hi my Name is Markus<i class="fa-solid fa-user"></i></h3>
         <p>Im 27 years of age and Student at The DCI in Germany</p>
@@ -52,9 +56,11 @@
           <li>.</li>
         </ul>
       </section>
+      <!-- Project -->
       <section id="projectSection">
         <div id="slides"></div>
       </section>
+      <!-- Contact Form -->
       <section id="contactSection">
         <form action="text" method="post">
             <label for="lfname">Your Name</label>
@@ -63,7 +69,9 @@
             <input type="email" name="email" id="email">
             <label for="whatyouneed">Your Message</label>
             <textarea name="whatyouneed" id="whatyouneed" cols="30" rows="10" placeholder="Text goes here"></textarea>
+            <button type="button" id="sendBtn">Send</button>
         </form>
+        <!-- Socials -->
         <div id="socials"><a href=""><i class="fa-brands fa-twitter"></i></a><a href=""><i class="fa-brands fa-youtube"></i></a><a href=""><i class="fa-brands fa-linkedin"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a><a href=""><i class="fa-brands fa-github"></i></a></div>
       </section>
     </main>
