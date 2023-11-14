@@ -6,6 +6,7 @@
 body {
     background-color: black;
     margin: 0;
+    position: relative;
 }
 /* Header */
 header {
@@ -64,4 +65,21 @@ form {
 .fa-brands {
     font-size: 5rem;
     margin: 1rem;
+}
+
+/* Splash Screen */
+#screencover {
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#splashText {
+    border: 2px red solid;
 }
