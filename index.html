@@ -3,20 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/6bd6c784d7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6bd6c784d7.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./style.css" />
     <title>My Project</title>
   </head>
-  <body>
+  <body id="forScroll">
     <!-- Header -->
     <header>
-      <div>
-        <div class="logo"></div>
-        <div id="headerName">Markus <br>Teumel</div>
+      <div class="dropMenu">
+        <button class="dropBtn"><i id="spin" class="fa-solid fa-bars"></i></button>
+        <div class="dropContent">
+          <a href="#codeSection">Home</a>
+          <a href="#me">Thats me!</a>
+          <a href="">Projects</a>
+          <a href="">Contact</a>
+          <a href="">?</a>
+        </div>
       </div>
-      <div>
-        <a href="#codeSection">Home</a><a href="#me">Thats me!</a><a href="">Projects</a
-        ><a href="">Contact</a><a href="">?</a>
+      <div id="headerFlex"><p>Markus Teumel</p>
+      <div id="headerContainer">
+        <div id="headerItem"><img id="headerName" src="./assets/imgs/MarkustOutrun.png" alt=""></div>
+      </div>
       </div>
     </header>
     <!-- Main -->
@@ -24,7 +34,7 @@
       <!-- Code Section  -->
       <section id="codeSection">
         <div id="codeWindow">
-          <h3>Hello I´m Markus</h3>
+          <h2>Hello I´m Markus</h2>
           <p>Frontend Developer</p>
           <p>Javascript Adept</p>
           <p>Amateur Game Dev</p>
@@ -63,20 +73,40 @@
       <!-- Contact Form -->
       <section id="contactSection">
         <form action="text" method="post">
-            <label for="lfname">Your Name</label>
-            <input type="text" name="lfname" id="lfname">
-            <label for="email">Your E-mail</label>
-            <input type="email" name="email" id="email">
-            <label for="whatyouneed">Your Message</label>
-            <textarea name="whatyouneed" id="whatyouneed" cols="30" rows="10" placeholder="Text goes here"></textarea>
-            <button type="button" id="sendBtn">Send</button>
+          <label for="lfname">Your Name</label>
+          <input type="text" name="lfname" id="lfname" />
+          <label for="email">Your E-mail</label>
+          <input type="email" name="email" id="email" />
+          <label for="whatyouneed">Your Message</label>
+          <textarea
+            name="whatyouneed"
+            id="whatyouneed"
+            cols="30"
+            rows="10"
+            placeholder="Text goes here"
+          ></textarea>
+          <button type="button" id="sendBtn">Send</button>
         </form>
         <!-- Socials -->
-        <div id="socials"><a href=""><i class="fa-brands fa-twitter"></i></a><a href=""><i class="fa-brands fa-youtube"></i></a><a href=""><i class="fa-brands fa-linkedin"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a><a href=""><i class="fa-brands fa-github"></i></a></div>
+        <div id="socials">
+          <a href=""><i class="fa-brands fa-twitter"></i></a
+          ><a href=""><i class="fa-brands fa-youtube"></i></a
+          ><a href=""><i class="fa-brands fa-linkedin"></i></a
+          ><a href=""><i class="fa-brands fa-instagram"></i></a
+          ><a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
       </section>
     </main>
-    <div id="screencover"><h1 id="splashText">Welcome</h1><div id="splashanim"><div class="outer"><img src="./assets/imgs/circle-svgrepo-com.svg" alt=""></div><div class="inner"><img src="./assets/imgs/circle.svg" alt=""></div></div></div>
+    <div id="screencover">
+      <h1 id="splashText">Welcome</h1>
+      <div id="splashanim">
+        <div class="outer">
+          <img src="./assets/imgs/circle-svgrepo-com.svg" alt="" />
+        </div>
+        <div class="inner"><img src="./assets/imgs/circle.svg" alt="" /></div>
+      </div>
+    </div>
   </body>
-  <script src="./splashscreen.js"></script>
+  <!-- <script src="./script.js"></script> -->
   <!-- SOCIALS Twitter Youtube Linkedin Instagram github-->
 </html>
