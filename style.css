@@ -272,14 +272,14 @@ background: #c0c0c0;
     margin-right: .3rem;
   }
   #screencover {
-    background-image: url(./assets/imgs/futureA.jpg);
+    background-image: url(./assets/imgs/.jpg);
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: 50%;
   } 
   #splashanim {
     background-image: url(./assets/imgs/beachhouse.jpg);
-    background-size: 90%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: 50%;
   }
