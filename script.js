@@ -18,7 +18,7 @@ function clickToView() {
   setTimeout(() => {
     splashScreen.style.display = "none";
     htmlBody.classList.remove("stopScroll")
-  }, 2500)
+  }, 1400)
 }
 
 

@@ -272,8 +272,8 @@ background: #c0c0c0;
     margin-right: .3rem;
   }
   #screencover {
-    background-image: url(./assets/imgs/.jpg);
-    background-size: 50%;
+    background-image: url(./assets/imgs/splashback.png);
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: 50%;
   } 
@@ -308,7 +308,7 @@ background: #c0c0c0;
 }
 
 .fadeoutFast {
-  animation: forwards fadeOut 1s;
+  animation: forwards fadeOut .1s;
 }
 
 @keyframes fadeOut {
