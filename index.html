@@ -14,8 +14,11 @@
     <!-- Header -->
     <header>
       <div class="dropMenu">
-        <button class="dropBtn"><i id="spin" class="fa-solid fa-bars"></i></button>
+        <button class="dropBtn">
+          <i id="spin" class="fa-solid fa-bars"></i>
+        </button>
         <div class="dropContent">
+          <div id="hideWhenBig" class="windowName">Menu <div><button class="mini"></button><button class="maxi"></button><button class="Xbtn"></button></div></div>
           <a href="#codeSection">Home</a>
           <a href="#me">Thats me!</a>
           <a href="">Projects</a>
@@ -23,18 +26,27 @@
           <a href="">?</a>
         </div>
       </div>
-      <div id="headerFlex"><p>Markus Teumel</p>
-      <div id="headerContainer">
-        <div id="headerItem"><img id="headerName" src="./assets/imgs/MarkustOutrun.png" alt=""></div>
-      </div>
+      <div id="headerFlex">
+        <p>Markus Teumel</p>
+        <div id="headerContainer">
+          <div id="headerItem">
+            <img id="headerName" src="./assets/imgs/MarkustOutrun.png" alt="" />
+          </div>
+        </div>
       </div>
     </header>
     <!-- Main -->
     <main>
       <!-- Code Section  -->
-      <section id="codeSection">
-        <div id="codeWindow">
-          <h2>Hello I´m Markus</h2>
+      <section class="codeSection">
+        <div class="codeWindow">
+          <div class="windowName">
+            Welcome to my Page
+            <div>
+              <button class="mini"></button><button class="maxi"></button
+              ><button class="Xbtn"></button>
+            </div>
+          </div>
           <p>Frontend Developer</p>
           <p>Javascript Adept</p>
           <p>Amateur Game Dev</p>
@@ -44,34 +56,56 @@
         </div>
       </section>
       <!-- BIO -->
-      <section id="me">
-        <h3>Hi my Name is Markus<i class="fa-solid fa-user"></i></h3>
-        <p>Im 27 years of age and Student at The DCI in Germany</p>
-        <p>
-          Im Learning alot of Codinglanguages like Html, Css, js and many more
-        </p>
-        <p>
-          I´ve been interessted in Coding the moment I played my first Videogame
-          and would love to make them myself in the future
-        </p>
-        <p>Videogames and Dinosaurs are my passion</p>
-        <p>Love Synth music</p>
-        <h3>Im good at.</h3>
-        <ul>
-          <li>Basic Html structuring</li>
-          <li>Designing sites with Css</li>
-          <li>Listening and Receiving feedback</li>
-          <li>Quick Learner</li>
-          <li>.</li>
-          <li>.</li>
-        </ul>
+      <section class="codeSection">
+        <div class="codeWindow">
+          <div class="windowName">
+            Hi my Name is Markus
+            <div>
+              <button class="mini"></button><button class="maxi"></button
+              ><button class="Xbtn"></button>
+            </div>
+          </div>
+          <p>Im 27 years of age and Student at The DCI in Germany</p>
+          <p>
+            Im Learning alot of Codinglanguages like Html, Css, js and many more
+          </p>
+          <p>
+            I´ve been interessted in Coding the moment I played my first
+            Videogame and would love to make them myself in the future
+          </p>
+          <p>Videogames and Dinosaurs are my passion</p>
+          <p>Love Synth music</p>
+
+          <div id="meFlex">
+            <ul>
+              <li class="noDot"><h4 class="noMarg">Im good at.</h4></li>
+              <li>Basic Html structuring</li>
+              <li>Designing sites with Css</li>
+              <li>Listening and Receiving feedback</li>
+              <li>Quick Learner</li>
+              <li>.</li>
+              <li>.</li>
+            </ul>
+            <ul>
+              <li class="noDot"><h4 class="noMarg">Skills</h4></li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>BOOTSTRAP</li>
+              <li>THREE.JS</li>
+              <li>TAILWIND</li>
+            </ul>
+          </div>
+        </div>
       </section>
       <!-- Project -->
       <section id="projectSection">
         <div id="slides"></div>
       </section>
       <!-- Contact Form -->
-      <section id="contactSection">
+      <section class="codeSection">
+        <div class="codeWindow">
+          <div class="windowName">Contact Form <div><button class="mini"></button><button class="maxi"></button><button class="Xbtn"></button></div></div>
         <form action="text" method="post">
           <label for="lfname">Your Name</label>
           <input type="text" name="lfname" id="lfname" />
@@ -86,27 +120,30 @@
             placeholder="Text goes here"
           ></textarea>
           <button type="button" id="sendBtn">Send</button>
-        </form>
+        </form></div>
         <!-- Socials -->
-        <div id="socials">
-          <a href=""><i class="fa-brands fa-twitter"></i></a
-          ><a href=""><i class="fa-brands fa-youtube"></i></a
-          ><a href=""><i class="fa-brands fa-linkedin"></i></a
-          ><a href=""><i class="fa-brands fa-instagram"></i></a
-          ><a href=""><i class="fa-brands fa-github"></i></a>
-        </div>
       </section>
-    </main>
-    <div id="screencover">
-      <h1 id="splashText">Welcome</h1>
-      <div id="splashanim">
-        <div class="outer">
-          <img src="./assets/imgs/circle-svgrepo-com.svg" alt="" />
-        </div>
-        <div class="inner"><img src="./assets/imgs/circle.svg" alt="" /></div>
+      <div id="socials">
+        <a href=""><i class="fa-brands fa-twitter"></i></a
+        ><a href=""><i class="fa-brands fa-youtube"></i></a
+        ><a href=""><i class="fa-brands fa-linkedin"></i></a
+        ><a href=""><i class="fa-brands fa-instagram"></i></a
+        ><a href=""><i class="fa-brands fa-github"></i></a>
       </div>
+    </main>
+    <div class="codeWindow" id="screencover">
+      <div class="windowName" id="splashText">Welcome<div><button class="mini"></button><button class="maxi"></button><button class="Xbtn"></button></div></div>
+      <div class="codeWindow" id="splashanim">
+        <div class="windowName">Click To Continue<div><button class="mini"></button><button class="maxi"></button><button class="Xbtn"></button></div>
+      </div><div class="simpleFlex"><img id="smaller" src="./assets/imgs/33Ho.gif" alt=""></div></div>
     </div>
   </body>
-  <!-- <script src="./script.js"></script> -->
+  <script src="./script.js"></script>
   <!-- SOCIALS Twitter Youtube Linkedin Instagram github-->
+  <!-- Impressunm not Added yet  
+  imgs:
+  https://www.deviantart.com/beast-of-the-forest/gallery
+  https://www.vecteezy.com/png/24065317-vaporwave-statue-bust-clipart-ai-generated
+  Fonts:
+  Levi Windows:https://www.dafont.com/leviwindows.font?text=All+your+base+belong+to+us.+Cancel+OK -->
 </html>

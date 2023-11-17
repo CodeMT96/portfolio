@@ -22,6 +22,7 @@ function clickToView() {
 }
 
 
+
 // Das ist der Eventlistener der listend für events duhhh
 splashScreen.addEventListener("click", clickToView);
 
