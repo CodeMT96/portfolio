@@ -23,6 +23,10 @@ body {
   position: relative;
 }
 
+#hideisonlyforscreenreader {
+  color: var(--quad-Color);
+}
+
 .stopScroll {
   overflow: hidden;
 }

@@ -20,7 +20,7 @@ function clickToView() {
     htmlBody.classList.remove("stopScroll")
   }, 1400)
 }
-
+// Add code to scroll site to top on reload
 
 
 // Das ist der Eventlistener der listend für events duhhh
